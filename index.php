@@ -1,65 +1,8 @@
 ﻿<!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]>
-<!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
 
-	<!-- Basic Page Needs
-	================================================== -->
-	<meta charset="utf-8">
-	<title>Thalia</title>
-	<meta name="description"  content="Professional Creative Template" />
-	<meta name="author" content="IG Design">
-	<meta name="keywords"  content="ig design, website, design, html5, css3, jquery, creative, clean, animated, portfolio, blog, one-page, multi-page, corporate, business," />
-	<meta property="og:title" content="Professional Creative Template" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="" />
-	<meta property="og:image" content="" />
-	<meta property="og:image:width" content="470" />
-	<meta property="og:image:height" content="246" />
-	<meta property="og:site_name" content="" />
-	<meta property="og:description" content="Professional Creative Template" />
-	<meta name="twitter:card" content="" />
-	<meta name="twitter:site" content="https://twitter.com/IvanGrozdic" />
-	<meta name="twitter:domain" content="http://ivang-design.com/" />
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:description" content="Professional Creative Template" />
-	<meta name="twitter:image" content="http://ivang-design.com/" />
+<?php include 'layouts/head.php' ?>
 
-	<!-- Mobile Specific Metas
-	================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="theme-color" content="#212121"/>
-    <meta name="msapplication-navbutton-color" content="#212121"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="#212121"/>
-
-	<!-- Web Fonts 
-	================================================== -->
-	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"/>
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
-	
-	<!-- CSS
-	================================================== -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/ionicons.min.css"/>
-	<link rel="stylesheet" href="css/datepicker.css"/>
-	<link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/owl.transitions.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
-	<link rel="stylesheet" href="css/colors/color.css"/>
-			
-	<!-- Favicons
-	================================================== -->
-	<link rel="icon" type="image/png" href="favicon.png">
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
-	
-	
-</head>
-<body>	
+<body>
 
 	<div class="loader">
 		<div class="loader__figure"></div>
@@ -68,92 +11,21 @@
 	<svg class="hidden">
 		<svg id="icon-nav" viewBox="0 0 152 63">
 			<title>navarrow</title>
-			<path d="M115.737 29L92.77 6.283c-.932-.92-1.21-2.84-.617-4.281.594-1.443 1.837-1.862 2.765-.953l28.429 28.116c.574.57.925 1.557.925 2.619 0 1.06-.351 2.046-.925 2.616l-28.43 28.114c-.336.327-.707.486-1.074.486-.659 0-1.307-.509-1.69-1.437-.593-1.442-.315-3.362.617-4.284L115.299 35H3.442C2.032 35 .89 33.656.89 32c0-1.658 1.143-3 2.552-3H115.737z"/>
+			<path d="M115.737 29L92.77 6.283c-.932-.92-1.21-2.84-.617-4.281.594-1.443 1.837-1.862 2.765-.953l28.429 28.116c.574.57.925 1.557.925 2.619 0 1.06-.351 2.046-.925 2.616l-28.43 28.114c-.336.327-.707.486-1.074.486-.659 0-1.307-.509-1.69-1.437-.593-1.442-.315-3.362.617-4.284L115.299 35H3.442C2.032 35 .89 33.656.89 32c0-1.658 1.143-3 2.552-3H115.737z" />
 		</svg>
 	</svg>
 
-	
+
 	<!-- Nav and Logo
 	================================================== -->
 
-	<nav id="menu-wrap" class="menu-back cbp-af-header">
-		<div class="menu-top background-black">
-			<div class="container">
-				<div class="row">
-					<div class="col-6 px-0 px-md-3 pl-1 py-3">
-						<span class="call-top">call us:</span> <a href="#" class="call-top">(381) 60 422 4256</a>
-					</div>
-					<div class="col-6 px-0 px-md-3 py-3 text-right">
-						<a href="#" class="social-top">fb</a>
-						<a href="#" class="social-top">tw</a>
-						<div class="lang-wrap">
-							eng
-							<ul>
-								<li><a href="#">ger</a></li>
-								<li><a href="#">rus</a></li>
-								<li><a href="#">ser</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>	
-			</div>		
-		</div>
-		<div class="menu">
-			<a href="index.html" >
-				<div class="logo">
-					<img src="img/logo.png" alt="">
-				</div>
-			</a>
-			<ul>
-				<li>
-					<a class="curent-page" href="#" >home</a>
-					<ul>
-						<li><a class="curent-page" href="index.html">Flip Slider</a></li>
-						<li><a href="index-1.html">Video Background</a></li>
-						<li><a href="index-2.html">Moving Image</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="#" >rooms</a>
-					<ul>
-						<li><a href="rooms.html">Our Rooms</a></li>
-						<li><a href="rooms-gallery.html">Room Gallery</a></li>
-						<li><a href="rooms-video.html">Room Video</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="#" >pages</a>
-					<ul>
-						<li><a href="explore.html">Explore</a></li>
-						<li><a href="search.html">Search</a></li>
-						<li><a href="tandc.html">Terms &amp; Conditions</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li><a href="restaurant.html">Restaurant</a></li>
-						<li><a href="testimonials.html">Testimonials</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="about.html">about us</a>
-				</li>
-				<li>
-					<a href="blog.html">news</a>
-				</li>
-				<li>
-					<a href="contact.html">contact</a>
-				</li>
-				<li>
-					<a href="search.html"><span>book now</span></a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-		
+	<?php include 'layouts/navbar.php' ?>
+
 	<!-- Primary Page Layout
 	================================================== -->
 
 	<div class="section background-dark over-hide">
-	
+
 		<div class="hero-center-section">
 			<div class="container">
 				<div class="row justify-content-center">
@@ -174,23 +46,23 @@
 							<div class="row justify-content-center">
 								<div class="col-5 no-mob">
 									<div class="input-daterange input-group" id="flight-datepicker">
-										<div class="row">	
+										<div class="row">
 											<div class="col-6">
 												<div class="form-item">
 													<span class="fontawesome-calendar"></span>
-													<input class="input-sm" type="text" autocomplete="off" id="start-date-1" name="start" placeholder="chech-in date" data-date-format="DD, MM d"/>
+													<input class="input-sm" type="text" autocomplete="off" id="start-date-1" name="start" placeholder="chech-in date" data-date-format="DD, MM d" />
 													<span class="date-text date-depart"></span>
 												</div>
 											</div>
 											<div class="col-6">
 												<div class="form-item">
 													<span class="fontawesome-calendar"></span>
-													<input class="input-sm" type="text" autocomplete="off" id="end-date-1" name="end" placeholder="check-out date" data-date-format="DD, MM d"/>
+													<input class="input-sm" type="text" autocomplete="off" id="end-date-1" name="end" placeholder="check-out date" data-date-format="DD, MM d" />
 													<span class="date-text date-return"></span>
 												</div>
 											</div>
 										</div>
-									</div>	
+									</div>
 								</div>
 								<div class="col-5 no-mob">
 									<div class="row">
@@ -204,9 +76,11 @@
 												<option value="5">5</option>
 											</select>
 										</div>
+										
+
 										<div class="col-6">
-											<select name="children" class="wide">
-												<option data-display="children">children</option>
+											<select name="rooms" class="wide">
+												<option data-display="No. of Rooms">No. of Rooms</option>
 												<option value="1">1</option>
 												<option value="2">2</option>
 												<option value="3">3</option>
@@ -225,7 +99,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="slideshow">
 			<div class="slide slide--current parallax-top">
 				<figure class="slide__figure">
@@ -258,10 +132,14 @@
 			</div>
 			<nav class="arrow-nav fade-top">
 				<button class="arrow-nav__item arrow-nav__item--prev">
-					<svg class="icon icon--nav"><use xlink:href="#icon-nav"></use></svg>
+					<svg class="icon icon--nav">
+						<use xlink:href="#icon-nav"></use>
+					</svg>
 				</button>
 				<button class="arrow-nav__item arrow-nav__item--next">
-					<svg class="icon icon--nav"><use xlink:href="#icon-nav"></use></svg>
+					<svg class="icon icon--nav">
+						<use xlink:href="#icon-nav"></use>
+					</svg>
 				</button>
 			</nav>
 			<!-- navigation -->
@@ -287,7 +165,7 @@
 			<div class="slideshow__indicator"></div>
 		</div>
 	</div>
-	
+
 	<div class="section padding-top-bottom over-hide">
 		<div class="container">
 			<div class="row">
@@ -308,7 +186,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="section background-grey over-hide">
 		<div class="container-fluid px-0">
 			<div class="row mx-0">
@@ -324,7 +202,7 @@
 							<h3 class="text-center">Private pool suite</h3>
 							<p class="text-center mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 							<a class="mt-5 btn btn-primary" href="search.html">check availability</a>
-						</div>	
+						</div>
 					</div>
 				</div>
 			</div>
@@ -335,7 +213,7 @@
 							<h3 class="text-center">Sea view suite</h3>
 							<p class="text-center mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 							<a class="mt-5 btn btn-primary" href="search.html">check availability</a>
-						</div>	
+						</div>
 					</div>
 				</div>
 				<div class="col-xl-6 px-0 order-first order-xl-last mt-5 mt-xl-0">
@@ -347,7 +225,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="section background-dark over-hide">
 		<div class="container-fluid py-4">
 			<div class="row">
@@ -386,7 +264,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="section padding-top-bottom over-hide">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -447,7 +325,7 @@
 		</div>
 	</div>
 
-	
+
 	<div class="section padding-top-bottom over-hide background-grey">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -556,23 +434,21 @@
 						</div>
 					</div>
 				</div>
-			</div>	
-		</div>		
+			</div>
+		</div>
 	</div>
-	
-	
-	<div class="section padding-top-bottom-small background-dark-2 over-hide">		
+
+
+	<div class="section padding-top-bottom-small background-dark-2 over-hide">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12 text-center">	
+				<div class="col-md-12 text-center">
 					<h5 class="color-grey">A new dimension of luxury.</h5>
-					<p class="color-white mt-3 mb-3"><em>our presentation, 0:48 min</em></p>
-					<a href="https://vimeo.com/54851233" class="video-button" data-fancybox><i class="fa fa-play"></i></a>
 				</div>
 			</div>
-		</div>	
+		</div>
 	</div>
-	
+
 	<div class="section padding-top-bottom background-grey over-hide">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -595,7 +471,7 @@
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
 							<a class="mt-1 btn btn-primary" href="restaurant.html">explore</a>
 						</div>
-					</div>	
+					</div>
 				</div>
 			</div>
 			<div class="row background-white p-0 m-0">
@@ -616,7 +492,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="section padding-top z-bigger">
 		<div class="container">
 			<div class="row justify-content-center padding-bottom-smaller">
@@ -683,120 +559,120 @@
 					<h2 class="text-opacity">+21 60 374 7537</h2>
 				</div>
 			</div>
-			
-		</div>	
+
+		</div>
 	</div>
-	
+
 	<div class="section">
-		<div id="owl-sep-2" class="owl-carousel owl-theme">								 
-			<div class="item">	
-				<a href="img/gallery/1.jpg" data-fancybox="gallery">							 
+		<div id="owl-sep-2" class="owl-carousel owl-theme">
+			<div class="item">
+				<a href="img/gallery/1.jpg" data-fancybox="gallery">
 					<div class="img-wrap gallery-small">
 						<img src="img/gallery/1-s.jpg" alt="">
 					</div>
 				</a>
-			</div>								 
-			<div class="item">	
-				<a href="img/gallery/2.jpg" data-fancybox="gallery">							 
+			</div>
+			<div class="item">
+				<a href="img/gallery/2.jpg" data-fancybox="gallery">
 					<div class="img-wrap gallery-small">
 						<img src="img/gallery/2-s.jpg" alt="">
 					</div>
 				</a>
-			</div>								 
-			<div class="item">	
-				<a href="img/gallery/3.jpg" data-fancybox="gallery">							 
+			</div>
+			<div class="item">
+				<a href="img/gallery/3.jpg" data-fancybox="gallery">
 					<div class="img-wrap gallery-small">
 						<img src="img/gallery/3-s.jpg" alt="">
 					</div>
 				</a>
-			</div>								 
-			<div class="item">	
-				<a href="img/gallery/4.jpg" data-fancybox="gallery">							 
+			</div>
+			<div class="item">
+				<a href="img/gallery/4.jpg" data-fancybox="gallery">
 					<div class="img-wrap gallery-small">
 						<img src="img/gallery/4-s.jpg" alt="">
 					</div>
 				</a>
-			</div>								 
-			<div class="item">	
-				<a href="img/gallery/5.jpg" data-fancybox="gallery">							 
+			</div>
+			<div class="item">
+				<a href="img/gallery/5.jpg" data-fancybox="gallery">
 					<div class="img-wrap gallery-small">
 						<img src="img/gallery/5-s.jpg" alt="">
 					</div>
 				</a>
-			</div>								 
-			<div class="item">	
-				<a href="img/gallery/6.jpg" data-fancybox="gallery">							 
+			</div>
+			<div class="item">
+				<a href="img/gallery/6.jpg" data-fancybox="gallery">
 					<div class="img-wrap gallery-small">
 						<img src="img/gallery/6-s.jpg" alt="">
 					</div>
 				</a>
-			</div>								 
-			<div class="item">	
-				<a href="img/gallery/7.jpg" data-fancybox="gallery">							 
+			</div>
+			<div class="item">
+				<a href="img/gallery/7.jpg" data-fancybox="gallery">
 					<div class="img-wrap gallery-small">
 						<img src="img/gallery/7-s.jpg" alt="">
 					</div>
 				</a>
-			</div>								 
-			<div class="item">	
-				<a href="img/gallery/8.jpg" data-fancybox="gallery">							 
+			</div>
+			<div class="item">
+				<a href="img/gallery/8.jpg" data-fancybox="gallery">
 					<div class="img-wrap gallery-small">
 						<img src="img/gallery/8-s.jpg" alt="">
 					</div>
 				</a>
-			</div>								 
-			<div class="item">	
-				<a href="img/gallery/9.jpg" data-fancybox="gallery">							 
+			</div>
+			<div class="item">
+				<a href="img/gallery/9.jpg" data-fancybox="gallery">
 					<div class="img-wrap gallery-small">
 						<img src="img/gallery/9-s.jpg" alt="">
 					</div>
 				</a>
-			</div>								 
-			<div class="item">	
-				<a href="img/gallery/10.jpg" data-fancybox="gallery">							 
+			</div>
+			<div class="item">
+				<a href="img/gallery/10.jpg" data-fancybox="gallery">
 					<div class="img-wrap gallery-small">
 						<img src="img/gallery/10-s.jpg" alt="">
 					</div>
 				</a>
-			</div>							 
-			<div class="item">	
-				<a href="img/gallery/1.jpg" data-fancybox="gallery">							 
+			</div>
+			<div class="item">
+				<a href="img/gallery/1.jpg" data-fancybox="gallery">
 					<div class="img-wrap gallery-small">
 						<img src="img/gallery/1-s.jpg" alt="">
 					</div>
 				</a>
-			</div>								 
-			<div class="item">	
-				<a href="img/gallery/2.jpg" data-fancybox="gallery">							 
+			</div>
+			<div class="item">
+				<a href="img/gallery/2.jpg" data-fancybox="gallery">
 					<div class="img-wrap gallery-small">
 						<img src="img/gallery/2-s.jpg" alt="">
 					</div>
 				</a>
-			</div>								 
-			<div class="item">	
-				<a href="img/gallery/3.jpg" data-fancybox="gallery">							 
+			</div>
+			<div class="item">
+				<a href="img/gallery/3.jpg" data-fancybox="gallery">
 					<div class="img-wrap gallery-small">
 						<img src="img/gallery/3-s.jpg" alt="">
 					</div>
 				</a>
-			</div>								 
-			<div class="item">	
-				<a href="img/gallery/4.jpg" data-fancybox="gallery">							 
+			</div>
+			<div class="item">
+				<a href="img/gallery/4.jpg" data-fancybox="gallery">
 					<div class="img-wrap gallery-small">
 						<img src="img/gallery/4-s.jpg" alt="">
 					</div>
 				</a>
-			</div>								 
-			<div class="item">	
-				<a href="img/gallery/5.jpg" data-fancybox="gallery">							 
+			</div>
+			<div class="item">
+				<a href="img/gallery/5.jpg" data-fancybox="gallery">
 					<div class="img-wrap gallery-small">
 						<img src="img/gallery/5-s.jpg" alt="">
 					</div>
 				</a>
-			</div>										 
+			</div>
 		</div>
 	</div>
-	
+
 	<div class="section padding-top-bottom-small background-black over-hide footer">
 		<div class="container">
 			<div class="row">
@@ -819,10 +695,10 @@
 					<img src="img/logos/2.png" alt="">
 					<img src="img/logos/3.png" alt="">
 				</div>
-			</div>	
-		</div>	
+			</div>
+		</div>
 	</div>
-	
+
 	<div class="section py-4 background-dark over-hide footer-bottom">
 		<div class="container">
 			<div class="row">
@@ -834,24 +710,25 @@
 					<a href="#" class="social-footer-bottom">twitter</a>
 					<a href="#" class="social-footer-bottom">instagram</a>
 				</div>
-			</div>	
-		</div>		
+			</div>
+		</div>
 	</div>
-	
-	
+
+
 	<div class="scroll-to-top"></div>
-	
-	
+
+
 	<!-- JAVASCRIPT
     ================================================== -->
 	<script src="js/jquery.min.js"></script>
-	<script src="js/popper.min.js"></script> 
+	<script src="js/popper.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/plugins.js"></script>
-	<script src="js/flip-slider.js"></script>  
-	<script src="js/reveal-home.js"></script>  
-	<script src="js/custom.js"></script> 
-<!-- End Document
+	<script src="js/flip-slider.js"></script>
+	<script src="js/reveal-home.js"></script>
+	<script src="js/custom.js"></script>
+	<!-- End Document
 ================================================== -->
 </body>
+
 </html>
