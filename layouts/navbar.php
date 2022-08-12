@@ -21,27 +21,18 @@
         </div>
     </div>
     <div class="menu">
-        <a href="index.html">
+        <a href="index.php">
             <div class="logo">
                 <img src="img/logo.png" alt="">
             </div>
         </a>
         <ul>
             <li>
-                <a class="curent-page" href="#">home</a>
-                <ul>
-                    <li><a class="curent-page" href="index.html">Flip Slider</a></li>
-                    <li><a href="index-1.html">Video Background</a></li>
-                    <li><a href="index-2.html">Moving Image</a></li>
-                </ul>
+                <a class="curent-page" href="#">home</a>                
             </li>
             <li>
-                <a href="#">rooms</a>
-                <ul>
-                    <li><a href="rooms.html">Our Rooms</a></li>
-                    <li><a href="rooms-gallery.html">Room Gallery</a></li>
-                    <li><a href="rooms-video.html">Room Video</a></li>
-                </ul>
+                <a href="rooms.html">rooms</a>
+                
             </li>
             <li>
                 <a href="#">pages</a>
