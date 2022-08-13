@@ -9,7 +9,7 @@
     <!-- Basic Page Needs
 	================================================== -->
     <meta charset="utf-8">
-    <title>Thalia - Hotel Customer System</title>
+    <title>Thalia - Hotel Customer System </title>
     <meta name="description" content="-COURSEWORK1PROJECTFILE-" />
     <meta name="author" content="GB Web Weavers">
     <meta property="og:title" content="-COURSEWORK1PROJECTFILE-" />
