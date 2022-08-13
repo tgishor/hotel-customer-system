@@ -31,14 +31,14 @@
                 <a class="curent-page" href="#">home</a>                
             </li>
             <li>
-                <a href="rooms.html">rooms</a>
+                <a href="rooms.php">rooms</a>
                 
             </li>
             <li>
                 <a href="#">pages</a>
                 <ul>
                     <li><a href="explore.html">Explore</a></li>
-                    <li><a href="search.html">Search</a></li>
+                    <li><a href="search.php">Search</a></li>
                     <li><a href="tandc.html">Terms &amp; Conditions</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="restaurant.html">Restaurant</a></li>
@@ -56,7 +56,7 @@
                 <a href="contact.html">contact</a>
             </li>
             <li>
-                <a href="search.html"><span>book now</span></a>
+                <a href="search.php"><span>book now</span></a>
             </li>
         </ul>
     </div>

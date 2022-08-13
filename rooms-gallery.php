@@ -2,63 +2,9 @@
 <!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]>
 <!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
 
-	<!-- Basic Page Needs
-	================================================== -->
-	<meta charset="utf-8">
-	<title>Thalia</title>
-	<meta name="description"  content="Professional Creative Template" />
-	<meta name="author" content="IG Design">
-	<meta name="keywords"  content="ig design, website, design, html5, css3, jquery, creative, clean, animated, portfolio, blog, one-page, multi-page, corporate, business," />
-	<meta property="og:title" content="Professional Creative Template" />
-	<meta property="og:type" content="website" />
-	<meta property="og:url" content="" />
-	<meta property="og:image" content="" />
-	<meta property="og:image:width" content="470" />
-	<meta property="og:image:height" content="246" />
-	<meta property="og:site_name" content="" />
-	<meta property="og:description" content="Professional Creative Template" />
-	<meta name="twitter:card" content="" />
-	<meta name="twitter:site" content="https://twitter.com/IvanGrozdic" />
-	<meta name="twitter:domain" content="http://ivang-design.com/" />
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:description" content="Professional Creative Template" />
-	<meta name="twitter:image" content="http://ivang-design.com/" />
+<?php include 'layouts/head.php' ?>
 
-	<!-- Mobile Specific Metas
-	================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<meta name="theme-color" content="#212121"/>
-    <meta name="msapplication-navbutton-color" content="#212121"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="#212121"/>
-
-	<!-- Web Fonts 
-	================================================== -->
-	<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"/>
-	<link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
-	
-	<!-- CSS
-	================================================== -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/ionicons.min.css"/>
-	<link rel="stylesheet" href="css/datepicker.css"/>
-	<link rel="stylesheet" href="css/jquery.fancybox.min.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/owl.transitions.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
-	<link rel="stylesheet" href="css/colors/color.css"/>
-			
-	<!-- Favicons
-	================================================== -->
-	<link rel="icon" type="image/png" href="favicon.png">
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
-	
-	
-</head>
 <body>	
 
 	<div class="loader">
@@ -76,79 +22,9 @@
 	<!-- Nav and Logo
 	================================================== -->
 
-	<nav id="menu-wrap" class="menu-back cbp-af-header">
-		<div class="menu-top background-black">
-			<div class="container">
-				<div class="row">
-					<div class="col-6 px-0 px-md-3 pl-1 py-3">
-						<span class="call-top">call us:</span> <a href="#" class="call-top">(381) 60 422 4256</a>
-					</div>
-					<div class="col-6 px-0 px-md-3 py-3 text-right">
-						<a href="#" class="social-top">fb</a>
-						<a href="#" class="social-top">tw</a>
-						<div class="lang-wrap">
-							eng
-							<ul>
-								<li><a href="#">ger</a></li>
-								<li><a href="#">rus</a></li>
-								<li><a href="#">ser</a></li>
-							</ul>
-						</div>
-					</div>
-				</div>	
-			</div>		
-		</div>
-		<div class="menu">
-			<a href="index.php" >
-				<div class="logo">
-					<img src="img/logo.png" alt="">
-				</div>
-			</a>
-			<ul>
-				<li>
-					<a href="#" >home</a>
-					<ul>
-						<li><a href="index.php">Flip Slider</a></li>
-						<li><a href="index-1.html">Video Background</a></li>
-						<li><a href="index-2.html">Moving Image</a></li>
-					</ul>
-				</li>
-				<li>
-					<a class="curent-page" href="#" >rooms</a>
-					<ul>
-						<li><a href="rooms.html">Our Rooms</a></li>
-						<li><a class="curent-page" href="rooms-gallery.html">Room Gallery</a></li>
-						<li><a href="rooms-video.html">Room Video</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="#" >pages</a>
-					<ul>
-						<li><a href="explore.html">Explore</a></li>
-						<li><a href="search.html">Search</a></li>
-						<li><a href="tandc.html">Terms &amp; Conditions</a></li>
-						<li><a href="services.html">Services</a></li>
-						<li><a href="restaurant.html">Restaurant</a></li>
-						<li><a href="testimonials.html">Testimonials</a></li>
-						<li><a href="gallery.html">Gallery</a></li>
-					</ul>
-				</li>
-				<li>
-					<a href="about.html">about us</a>
-				</li>
-				<li>
-					<a href="blog.html">news</a>
-				</li>
-				<li>
-					<a href="contact.html">contact</a>
-				</li>
-				<li>
-					<a href="search.html"><span>book now</span></a>
-				</li>
-			</ul>
-		</div>
-	</nav>
-		
+	<?php include 'layouts/navbar.php' ?>	
+
+	
 	<!-- Primary Page Layout
 	================================================== -->
 
@@ -342,8 +218,8 @@
 											</select>
 										</div>
 										<div class="col-12 pt-4">
-											<select name="children" class="wide">
-												<option data-display="children">children</option>
+											<select name="Rooms" class="wide">
+												<option data-display="No. Of Rooms">No. Of Rooms</option>
 												<option value="1">1</option>
 												<option value="2">2</option>
 												<option value="3">3</option>
@@ -354,7 +230,7 @@
 									</div>
 								</div>
 								<div class="col-12 pt-4">
-									<a class="booking-button" href="search.html">book now</a>
+									<a class="booking-button" href="search.php">book now</a>
 								</div>
 							</div>
 						</div>
@@ -381,12 +257,12 @@
 						<div class="room-box-in">
 							<h5 class="">pool suite</h5>
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 130$</a>
+							<a class="mt-1 btn btn-primary" href="rooms-gallery.php">book from 130$</a>
 							<div class="room-icons mt-4 pt-4">
 								<img src="img/5.svg" alt="">
 								<img src="img/2.svg" alt="">
 								<img src="img/3.svg" alt="">
-								<a href="rooms-gallery.html">full info</a>
+								<a href="rooms-gallery.php">full info</a>
 							</div>
 						</div>
 					</div>
@@ -405,12 +281,12 @@
 						<div class="room-box-in">
 							<h5 class="">small room</h5>
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 80$</a>
+							<a class="mt-1 btn btn-primary" href="rooms-gallery.php">book from 80$</a>
 							<div class="room-icons mt-4 pt-4">
 								<img src="img/4.svg" alt="">
 								<img src="img/2.svg" alt="">
 								<img src="img/6.svg" alt="">
-								<a href="rooms-gallery.html">full info</a>
+								<a href="rooms-gallery.php">full info</a>
 							</div>
 						</div>
 					</div>
@@ -429,12 +305,12 @@
 						<div class="room-box-in">
 							<h5 class="">Apartment</h5>
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 110$</a>
+							<a class="mt-1 btn btn-primary" href="rooms-gallery.php">book from 110$</a>
 							<div class="room-icons mt-4 pt-4">
 								<img src="img/5.svg" alt="">
 								<img src="img/2.svg" alt="">
 								<img src="img/3.svg" alt="">
-								<a href="rooms-gallery.html">full info</a>
+								<a href="rooms-gallery.php">full info</a>
 							</div>
 						</div>
 					</div>

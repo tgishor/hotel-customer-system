@@ -76,7 +76,7 @@
 												<option value="5">5</option>
 											</select>
 										</div>
-										
+
 
 										<div class="col-6">
 											<select name="rooms" class="wide">
@@ -91,7 +91,7 @@
 									</div>
 								</div>
 								<div class="col-6  col-sm-4 col-lg-2">
-									<a class="booking-button" href="search.html">book now</a>
+									<a class="booking-button" href="search.php">book now</a>
 								</div>
 							</div>
 						</div>
@@ -100,7 +100,7 @@
 			</div>
 		</div>
 
-		
+
 
 		<!-- Slideshow -->
 
@@ -178,7 +178,9 @@
 						<div class="col-10">
 							<div class="subtitle text-center mb-4">hotel Thalia</div>
 							<h2 class="text-center">Here is a tribute to good life!</h2>
-							<p class="text-center mt-5">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+							<p class="text-center mt-5">
+								Come rain or shine wherever you are in Sri Lanka, hotel deals are always available on our island for all seasons. Regularly refreshed, our special offers have been designed to give you the greatest of Sri Lankan hospitality at the best value.
+							</p>
 						</div>
 					</div>
 				</div>
@@ -204,8 +206,8 @@
 					<div class="row justify-content-center">
 						<div class="col-10 col-xl-8 text-center">
 							<h3 class="text-center">Private pool suite</h3>
-							<p class="text-center mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-5 btn btn-primary" href="search.html">check availability</a>
+							<p class="text-center mt-4">An icon of Thalia hotel offerings, Jetwing Saman Villas is one of Sri Lanka’s most recognised boutique villas. Luxuriate in the warm waters of your own private plunge pool while you take in a breathtaking sunset, champagne in hand.</p>
+							<a class="mt-5 btn btn-primary" href="search.php">check availability</a>
 						</div>
 					</div>
 				</div>
@@ -215,8 +217,8 @@
 					<div class="row justify-content-center">
 						<div class="col-10 col-xl-8 text-center">
 							<h3 class="text-center">Sea view suite</h3>
-							<p class="text-center mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-5 btn btn-primary" href="search.html">check availability</a>
+							<p class="text-center mt-4">Tucked away in the provincial backlands of one of Sri Lanka’s most popular beach destinations, Dedduwa Boat House and Yathra Houseboat by Jetwing welcome you to the inland waters of Bentota on our island’s buzzing southern coastline.</p>
+							<a class="mt-5 btn btn-primary" href="search.php">check availability</a>
 						</div>
 					</div>
 				</div>
@@ -281,7 +283,7 @@
 					<div class="services-box text-center">
 						<img src="img/1.svg" alt="">
 						<h5 class="mt-2">smoking free</h5>
-						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
+						<p class="mt-3">100% Smoke free and friendly environment.</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
 					</div>
 				</div>
@@ -289,7 +291,7 @@
 					<div class="services-box text-center">
 						<img src="img/2.svg" alt="">
 						<h5 class="mt-2">king beds</h5>
-						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
+						<p class="mt-3">Specially furnitures for giving guest more comfort.</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
 					</div>
 				</div>
@@ -297,7 +299,7 @@
 					<div class="services-box text-center">
 						<img src="img/3.svg" alt="">
 						<h5 class="mt-2">Yacht rental</h5>
-						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
+						<p class="mt-3">Extra activties can be accessed depending package.</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
 					</div>
 				</div>
@@ -305,7 +307,7 @@
 					<div class="services-box text-center">
 						<img src="img/4.svg" alt="">
 						<h5 class="mt-2">welcome drink</h5>
-						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
+						<p class="mt-3">This is compulsary given need for all customers.</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
 					</div>
 				</div>
@@ -313,7 +315,7 @@
 					<div class="services-box text-center">
 						<img src="img/5.svg" alt="">
 						<h5 class="mt-2">swimming pool</h5>
-						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
+						<p class="mt-3">Access to common pool for all customers</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
 					</div>
 				</div>
@@ -321,7 +323,7 @@
 					<div class="services-box text-center">
 						<img src="img/6.svg" alt="">
 						<h5 class="mt-2">food included</h5>
-						<p class="mt-3">Sed ut perspiciatis unde omnis iste natus error sit, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
+						<p class="mt-3">Packages are declared where meals are included</p>
 						<a class="mt-1 btn btn-primary" href="services.html">read more</a>
 					</div>
 				</div>
@@ -352,13 +354,13 @@
 						<div class="room-box-in">
 							<h5 class="">pool suite</h5>
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 130$</a>
+							<a class="mt-1 btn btn-primary" href="rooms-gallery.php">book from 130$</a>
 							<div class="room-icons mt-4 pt-4">
 								<img src="img/5.svg" alt="">
 								<img src="img/2.svg" alt="">
 								<img src="img/3.svg" alt="">
 								<img src="img/1.svg" alt="">
-								<a href="rooms-gallery.html">full info</a>
+								<a href="rooms-gallery.php">full info</a>
 							</div>
 						</div>
 					</div>
@@ -377,13 +379,13 @@
 						<div class="room-box-in">
 							<h5 class="">small room</h5>
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 80$</a>
+							<a class="mt-1 btn btn-primary" href="rooms-gallery.php">book from 80$</a>
 							<div class="room-icons mt-4 pt-4">
 								<img src="img/4.svg" alt="">
 								<img src="img/2.svg" alt="">
 								<img src="img/6.svg" alt="">
 								<img src="img/3.svg" alt="">
-								<a href="rooms-gallery.html">full info</a>
+								<a href="rooms-gallery.php">full info</a>
 							</div>
 						</div>
 					</div>
@@ -402,13 +404,13 @@
 						<div class="room-box-in">
 							<h5 class="">Apartment</h5>
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 110$</a>
+							<a class="mt-1 btn btn-primary" href="rooms-gallery.php">book from 110$</a>
 							<div class="room-icons mt-4 pt-4">
 								<img src="img/5.svg" alt="">
 								<img src="img/2.svg" alt="">
 								<img src="img/3.svg" alt="">
 								<img src="img/6.svg" alt="">
-								<a href="rooms-gallery.html">full info</a>
+								<a href="rooms-gallery.php">full info</a>
 							</div>
 						</div>
 					</div>
@@ -427,13 +429,13 @@
 						<div class="room-box-in">
 							<h5 class="">big Apartment</h5>
 							<p class="mt-3">Sed ut perspiciatis unde omnis, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et.</p>
-							<a class="mt-1 btn btn-primary" href="rooms-gallery.html">book from 160$</a>
+							<a class="mt-1 btn btn-primary" href="rooms-gallery.php">book from 160$</a>
 							<div class="room-icons mt-4 pt-4">
 								<img src="img/5.svg" alt="">
 								<img src="img/2.svg" alt="">
 								<img src="img/3.svg" alt="">
 								<img src="img/6.svg" alt="">
-								<a href="rooms-gallery.html">full info</a>
+								<a href="rooms-gallery.php">full info</a>
 							</div>
 						</div>
 					</div>
